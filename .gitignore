@@ -1,0 +1,10 @@
+# JavaEE
+target/
+
+# IntelliJ
+*.iml
+.idea/
+
+# Mac OS X
+.DS_Store
+
