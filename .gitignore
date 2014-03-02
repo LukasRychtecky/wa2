@@ -1,6 +1,10 @@
 # JavaEE
 target/
 
+# Python
+var/
+*.pyc
+
 # IntelliJ
 *.iml
 .idea/

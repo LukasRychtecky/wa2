@@ -12,6 +12,12 @@ Prerekvizity
 - nastav si JBOSS_HOME proměnnou, e.g. `echo "export JBOSS_HOME=/opt/local/etc/jboss" >> ~/.profile`
 - spusť server ($JBOSS_HOME/bin/standalone.sh) [http://localhost:8080/](http://localhost:8080/)
 
+### Python
+
+- nainstaluj si [Python 2.7](http://www.python.org/downloads/)
+- pokud bude potřeba nastav Python do $PATH `export PATH="/usr/local/share/python:$PATH"`
+- nainstaluj si Python [virtualenv](https://pypi.python.org/pypi/virtualenv), pokud máš Linuxuou distribuci jako derivát Debianu zavolej `make installpython`
+
 Tipy
 ----
 
