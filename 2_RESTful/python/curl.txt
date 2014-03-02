@@ -1,0 +1,11 @@
+curl -v -X POST "http://localhost:5000/rest/orders"
+
+curl -v -X GET "http://localhost:5000/rest/orders/1"
+
+curl -v -X POST -d "{\"name\":\"sofa\"}" "http://localhost:5000/rest/orders/1" --header 'Content-Type: application/json'
+
+curl -v -X GET "http://localhost:5000/rest/orders/1/1"
+
+curl -v -X PUT -d "{\"name\":\"sofa2\"}" "http://localhost:5000/rest/orders/1/2" --header 'Content-Type: application/json'
+
+curl -v -X DELETE "http://localhost:5000/rest/orders/1/2"
