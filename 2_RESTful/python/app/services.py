@@ -1,7 +1,6 @@
-from app.models import Order
 from flask import abort
 from flask_restful import Resource, marshal_with
-from models import Storage
+from models import Storage, Order
 
 storage = Storage()
 storage.create_order()
